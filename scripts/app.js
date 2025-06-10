@@ -7,7 +7,7 @@ const primaryHeadingContent=document.querySelector('result');
 
 primaryHeadingContent.innerHTML='${myFullName} - ${myStudentNumber}';
 
-element.classList.add(primaryHeadingContent);
+primaryHeadingContent.classList.add(primaryHeadingContent);
 
 
 
