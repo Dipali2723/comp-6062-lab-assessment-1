@@ -5,7 +5,7 @@ const result= '${myFullName} - ${myStudentNumber}';
 
 const primaryHeadingContent=document.querySelector('h1');
 
-primaryHeadingContent.innerHTML='h1';
+primaryHeadingContent.innerHTML='${myFullName} - ${myStudentNumber}';
 
 element.classList.add(primaryHeadingContent);
 
